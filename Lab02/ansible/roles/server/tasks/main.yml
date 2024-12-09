@@ -1,3 +1,0 @@
-- name: Run server
-  become: true
-  raw: python3 app/server.py &
