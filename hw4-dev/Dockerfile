@@ -18,5 +18,3 @@ RUN apt-get update && \
    apt-get clean && \
    usermod -aG docker jenkins
 
-# I did not managed to run docker under not root
-# USER jenkins
